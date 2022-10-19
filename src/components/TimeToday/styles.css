@@ -1,0 +1,25 @@
+.time {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(211, 62, 62);
+}
+.time__title {
+  font-size: 3.25rem;
+  display: flex;
+  justify-content: flex-end;
+  color: #f8e9e9;
+}
+.time__subtitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: #e9c0c0;
+}
+
+.time__image {
+  height: 150px;
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
+}

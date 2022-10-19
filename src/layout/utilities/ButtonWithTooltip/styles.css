@@ -1,0 +1,19 @@
+.button {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid rgb(206, 201, 201);
+  border-radius: 10px;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(206, 201, 201);
+  border: none;
+  transition: position 1s;
+}

@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300&display=swap");
+
+:root {
+  --main: rgb(211, 62, 62);
+}
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 2rem;
+}

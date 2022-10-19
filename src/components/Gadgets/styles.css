@@ -1,0 +1,61 @@
+.gadgets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gadgets__container--top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.gadgets__container--bottom {
+  display: flex;
+  height: 200px;
+  padding: 1rem;
+}
+
+.gadgets__icon {
+  height: 36px;
+}
+
+.gadgets__divider {
+  height: 5px;
+  width: 100%;
+  background-color: rgb(247, 244, 244);
+}
+
+.gadgets__button {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid rgb(206, 201, 201);
+  border-radius: 10px;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gadgets__button:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(206, 201, 201);
+  border: none;
+  transition: position 1s;
+}
+
+.tooltip {
+  padding: 15px;
+  width: 100px;
+  min-height: 25px;
+  position: absolute;
+  top: -60px;
+  right: -150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(206, 201, 201);
+  z-index: 999;
+  background-color: #fff;
+}
